@@ -1,0 +1,166 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #333;
+  padding: 5px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #333;
+  padding: 10px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+.contato {
+  padding: 50px;
+}
+
+.contato h2 {
+  margin-bottom: 20px;
+}
+
+.contato p {
+  margin-bottom: 10px;
+}
+
+.contato div {
+  margin-bottom: 20px;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+.contato input,
+.contato textarea {
+  width: 80%;
+  text-align: left;
+}
+
+.contato button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 100px;
+}
+
+.project {
+  padding: 50px;
+}
+.project img {
+  max-width: 500px;
+  height: auto;
+  padding: 10px;
+}
+
+.tecnologias li {
+  display: inline;
+  margin-right: 5px;
+}
+
+#index {
+  text-align: center;
+  padding: 20px;
+}
+
+.ft img{
+  max-width: 250px;
+  height: auto;
+  padding-left: 50px;
+  float: left;
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+
+
+
+
